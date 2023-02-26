@@ -1,4 +1,3 @@
-
 # micrograd
 
 This is a follow along of the micrograd implementation by Karpathy Andrej's implentation of Micrograd - An autograd implementation to compute backpropagation for scalar values.
@@ -33,4 +32,10 @@ g.backward()
 print(f'{a.grad:.4f}') # prints 138.8338, i.e. the numerical value of dg/da
 print(f'{b.grad:.4f}') # prints 645.5773, i.e. the numerical value of dg/db
 ```
+
+# References
+[Github Repo for Micrograd](https://github.com/karpathy/micrograd)
+[Youtube Video](https://youtu.be/VMj-3S1tku0)
+
+
 
